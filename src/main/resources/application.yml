@@ -1,0 +1,22 @@
+server:
+  port: 8079
+
+spring:
+  application:
+    name: llm-friend-chat-history
+  ai:
+    ollama:
+      chat:
+        # model: mistral:7b-instruct-v0.3-q8_0
+        # model: deepseek-r1:14b
+        # model: llama3.1:8b
+        model: llama3.2:3b
+
+de:
+  sven:
+    bayer:
+      llm:
+        friend:
+          chatbot:
+            llmName: Lumi
+            maxSummarizationLength: 30
